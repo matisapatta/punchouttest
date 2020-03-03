@@ -21,7 +21,7 @@ app.get('/api/punchoutget', function (req, res) {
   app.post('/api/punchoutpost', function (req, res) {
     console.log("punchout post")
     console.log(req)
-    res.set('Content-Type', 'text/xml');
+    res.type('application/xml');
 
     res.send(xml("<?xml version=\"1.0?\"\>"
     +"<!DOCTYPE cXML SYSTEM \"http://xml.cxml.org/schemas/cXML/1.2.014/cXML.dtd\"\>"
