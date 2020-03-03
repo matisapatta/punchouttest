@@ -43,7 +43,7 @@ app.get('/api/punchoutget', function (req, res) {
       +"<Status code=\"200\" text=\"success\"\></Status\>"
         +"<PunchOutSetupResponse\>"
          + "<StartPage\>"
-            +"<URL>https://punchout.workchairs.com/Servlet/sessionid=7006</URL\>"
+            +"<URL>www.google.com.ar</URL\>"
           +"</StartPage\>"
         +"</PunchOutSetupResponse\>"
       +"</Response\>"
