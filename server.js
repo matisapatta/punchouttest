@@ -19,7 +19,7 @@ app.get('/api/punchoutget', function (req, res) {
   app.post('/api/punchoutpost', function (req, res) {
     console.log("punchout post")
     console.log(req)
-    res.send("punchout post");
+    res.status(200);
   });
 
   
